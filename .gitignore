@@ -1,0 +1,13 @@
+package-lock.json
+--- a/file:///c%3A/Users/pranj/OneDrive/Desktop/malaria_detection/package-lock.json
++++ b/file:///c%3A/Users/pranj/OneDrive/Desktop/malaria_detection/package-lock.json
+@@ -1,1 +1,2 @@
+package.json
+--- a/file:///c%3A/Users/pranj/OneDrive/Desktop/malaria_detection/package.json
++++ b/file:///c%3A/Users/pranj/OneDrive/Desktop/malaria detection/package.json
+@@ -1,1 +1,2 @@ 
+node_modules/
+--- a/file:///c%3A/Users/pranj/OneDrive/Desktop/malaria_detection/node_modules/
++++ b/file:///c%3A/Users/pranj/OneDrive/Desktop/malaria detection/node_modules/     
+@@ -1,1 +1,2 @@
+package-lock.json   

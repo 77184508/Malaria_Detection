@@ -1,0 +1,7 @@
+.logout-box{
+    display:flex;
+    justify-content:right;
+    align-items:right;
+    margin: 20px;
+    padding: 20px; 
+}
