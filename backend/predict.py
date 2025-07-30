@@ -2,13 +2,14 @@ from flask import Flask, request, jsonify
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 from keras.layers import TFSMLayer
+from dotenv import load_dotenv
 import numpy as np
 import os
 
 app = Flask(__name__)
-
+load_dotenv()
 # Load your saved model
-MODEL_PATH = 'C:\\Users\\pranj\\Downloads\\malaria_model-20250716T071806Z-1-001\\malaria_model\\best_model.h5'  
+MODEL_PATH = os.getenv("MODEL_PATH", "best_model.h5")
 model = load_model(MODEL_PATH)
 
 @app.route('/predict', methods=['POST'])
